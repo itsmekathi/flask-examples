@@ -19,8 +19,8 @@ app.config["SECRET_KEY"] = "secretkey"
 app.config["ALLOWED_IMAGE_EXTENSIONS"] = ["jpeg", "jpg", "png"]
 app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024
 app.config["IMAGE_UPLOADS"] = os.path.join(basedir, "uploads")
-app.config["RECAPTCHA_PUBLIC_KEY"] = "6LcnU_AUAAAAAFDqrPo1E66uuU3JCfzullr5Sx2V"
-app.config["RECAPTCHA_PRIVATE_KEY"] = "6LcnU_AUAAAAAFZkjSK9cEH4n6NJHEUFZbZRWJnp"
+app.config["RECAPTCHA_PUBLIC_KEY"] = "dummy" # get it from environment
+app.config["RECAPTCHA_PRIVATE_KEY"] = "dummy" # get it from environment
 app.config["TESTING"] = True
 
 
